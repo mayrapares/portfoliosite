@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://github.com/thoughtbot/bourbon.git">
+  <link rel="stylesheet" href="css\index3.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/index3.js"></script>
+
+
+  <title>JavaScript Redirect a Page onClick Event</title>
+  <script>
+    function pageRedirect() {
+      window.open('https://mayrawaheed.myportfolio.com/', '_blank');
+    }
+  </script>
+
+<title>JavaScript Redirect a Page onClick Event</title>
+  <script>
+    function jackInTheBox() {
+      image.animate('jackInTheBox');
+    }
+  </script>
+
+  <title>JavaScript Redirect a Page onClick Event</title>
+  <script>
+    function newTab() {
+      window.open('https://www.linkedin.com/in/mayra-j-pares-waheed-190a361b4/', '_blank');
+    }
+  </script>
+
+  <title>JavaScript Redirect a Page onClick Event</title>
+  <script>
+    function newPage() {
+      window.open('https://www.behance.net/mayrapares', '_blank');
+    }
+  </script>
+
+  <title>JavaScript Redirect a Page onClick Event</title>
+  <script>
+    function newWindow() {
+      window.open('https://www.youtube.com/channel/UCZnVQ4aTVw16qwZlquYBB8Q', '_blank');
+    }
+  </script>
+
+  <title>JavaScript Redirect a Page onClick Event</title>
+  <script>
+    function openNew() {
+      window.open('resume.html', '_blank');
+    }
+  </script>
+
+  <script src="js/jquery.js"></script>
+  <script>
+    $(function () {
+      $("#page-wrap").wrapInner("<table cellspacing='30'><tr>");
+      $(".post").wrap("<td>");
+    });
+  </script>
+
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+  <a name="top"></a>
+
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+
+  </div>
+
+  <div id="page">
+
+    <!--NAV-->
+
+    <!--    <header> -->
+    <div class="jumbotron jumbotron-fluid">
+
+      <nav>
+
+        <a href="#top"><img src="images/logoattempt999.png" class="rotate" width="88px" height="auto" /> </a>
+
+
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a href="about.html" class="nav-link active" >About</a>
+          </li>
+
+          <!--  data-toggle="modal" data-target="#exampleModalCenter" Button trigger modal
+          <button type="button" class="btn btn-primary" >
+           Launch demo modal
+          </button>  -->
+
+          <!--    <button type="submit" class="btn btn-primary">Sign in</button> -->
+
+
+          <li onclick="pageRedirect()" class="nav-item">
+            <a class="nav-link">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../UX_UI_HW_19 copy/PDF/resumefeb2021.pdf" target="_blank">Resume</a>
+          </li>
+        </ul>
+      </nav>
+
+      <ul class="icons justify-content-end">
+        <li class="column"><img onclick="newTab()" src="images/linkedin.png" height="33px" width="33px"></li>
+
+        <li class="column"><img onclick="newPage()" src="images/behance.png" height="33px" width="33px"></li>
+
+        <li class="column"><img onclick="newWindow()" src="images/youtube.png" height="27px" width="33px"></li>
+      </ul>
+
+
+      <div class="memoji1">
+        <h1 id="title">mayra waheed</h1>
+        <img class="animate__animated animate__jackInTheBox"  onclick="jackInTheBox()" src="images/thumbs.png" width="13%" style="margin-left: 96px;">
+        <h3 style="text-shadow: 2px 2px #0a2f50;">visual design | developer</h3>
+      </div>
+
+
+
+
+      <!--     <div class="workSect">
+        <h4>work</h4>
+        
+      </div> -->
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">about me / contact </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              i'm mayra, a developer with a background in fine arts. i specialize in visual and interaction design,
+              research and data analysis, and front and back-end development. i also have proficiency in JavaScript,
+              HTML5, CSS, and JQuery.
+
+              i like to resolve design problems, and enjoy finding new ways to tackle complex issues. i have a
+              self-driven work-ethic that is detail-oriented, creative, and adaptable, which makes me a valuable asset
+              to any team.
+
+              i accept commissions, and when i'm not working on those, reading, or studying, i spend my free time having
+              exestential crises' throughout my day. want to fix that? i am currently for-hire! explore my page to see
+              my work, and feel free to reach out!
+
+            </div>
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4">name</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="name">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPassword4">email</label>
+                  <input type="password" class="form-control" id="inputPassword4" placeholder="email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </form>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">exit</button>
+              <button type="button" class="btn btn-primary">send message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!--MY SKILLS
+
+    <section class="skills">
+      <div class="content">
+
+        <h2>skills</h2>
+
+        <section class="flexContainer">
+
+          <div class="card program">
+            <img src="images/creative-cloud.svg" class="thumbnail" alt="Illustrator">
+            <h6>adobe creative suite</h6>
+          </div>
+
+          <div class="card program">
+            <img src="images/vscode.png" class="thumbnail" alt="Illustrator">
+            <h6>visual studio code</h6>
+          </div>
+
+          <div class="card program">
+            <img src="images/figma.png" class="thumbnail" alt="Illustrator" style="height: 55px;">
+            <h6>figma</h6>
+          </div>
+
+          <div class="card program">
+            <img src="images/invision.png" class="thumbnail" alt="Illustrator">
+            <h6>invision</h6>
+          </div>
+
+          <div class="card program">
+            <img src="images/xd.png" class="thumbnail" alt="Illustrator">
+            <h6>adobe XD</h6>
+          </div>
+
+        </section>
+      </div>
+    </section> -->
+
+    <!--    </header> -->
+
+    <h2> recent works </h2>
+    <!--My Work-->
+
+
+    <!--   <section class="work"> -->
+
+    <div class="workColumn">
+
+      <div class="animate__animated animate__slideInUp">
+
+        <div class="workCard">
+          
+            <img class="workImg" src="images/mfpnew.png" alt="MyFitnessPal" width="35%">
+         
+          <div class="workText">
+            <h4 class="workcardTitle">fitness app redesign</h4>
+            <p class="card-text">based on user research, my team worked to redesign the myfitnesspal app in order to
+              encourage regular use, while also leading to improved health for the user.</p>
+            <button class="btn btn-md" type="button">view case study</button>
+          </div>
+        </div>
+
+        <div class="appCard">
+
+          <img class="appImg" src="images/feeding_a.png" alt="Feeding America" width="35%">
+
+          <div class="appText">
+            <h4 class="workcardTitle">non-profit redesign</h4>
+            <p class="card-text">the goal of this project was to redesign the feeding america website with a focus on the information architecture as well as the mobile channel experience.</p>
+            <button class="btn btn-md" type="button">view case study</button>
+          </div>
+        </div>
+
+        <div class="workCard">
+          <div class="workImg">
+            <img src="images/doi.png" alt="US Department of Interior" width="88%">
+          </div>
+          <div class="workText">
+            <h4 class="workcardTitle">gov. agency redesign</h4>
+            <p class="card-text">based on user research and UI design analysis, my team created a responsive redesign of the u.s.d.o.i. website, with a focus on navigation and information hierarchy.</p>
+            <button class="btn btn-md" type="button">view case study</button>
+          </div>
+        </div>
+
+        <div class="appCard">
+
+          <img class="appImg" src="images/tbc1.png" alt="MyFitnessPal" width="35%">
+
+          <div class="appText">
+            <h4 class="workcardTitle">mobile app prototype</h4>
+            <p></p>
+            <p class="card-text">the purpose of this project was to research, prototype, test, and validate a new app.</p>
+            <p></p>
+            <button class="btn btn-md" type="button">view case study</button>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    
+    <!--
+        <div class="card-columns">
+
+          <div class="card p-0 col-sm-12">
+            <img src="images/ios.png" alt="MyFitnessPal" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">fitness app redesign</h4>
+              <p class="card-text">based on user research, my team worked to redesign the myfitnesspal app in order to
+                encourage regular use, while also leading to improved health for the user.</p>
+            </div>
+          </div>
+
+          <div class="card p-0 col-sm-12">
+            <img src="images/tbc1.png" alt="mobile app redesign" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">mobile app prototype</h4>
+              <p class="card-text">the purpose of this project was to research, prototype, test, and validate a new app.
+              </p>
+            </div>
+          </div>
+
+          <div class="card p-0 col-sm-12">
+            <img src="images/feeding_a.png" alt="Feeding America" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">non-profit redesign</h4>
+              <p class="card-text">the goal of this project was to redesign the feeding america website with a focus on
+                the information architecture as well as the mobile channel experience.</p>
+
+            </div>
+          </div>
+
+          <div class="card p-3 col-sm-12" style="background-color: #0a2f50; color: #F26666; font-weight: bold;">
+
+            <blockquote class="blockquote mb-0 card-body" onclick="pageRedirect()">
+              <h3 class="card-title">more</h3>
+              <p class="card-text">thank you for visiting my page. </p>
+              <p> here you can view my featured work, commissions, and more.</p>
+              <small style="font-weight: bold;">
+                view more
+              </small>
+            </blockquote>
+
+          </div>
+
+          <div class="card p-0 col-sm-12">
+            <img src="images/doi.png" alt="US Department of Interior" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">gov. agency redesign</h4>
+              <p class="card-text">based on user research and UI design analysis, my team created a responsive redesign
+                of the u.s.d.o.i. website, with a focus on navigation and information hierarchy.</p>
+            </div>
+          </div>
+
+          <div class="card p-3 col-sm-12">
+            <blockquote class="blockquote mb-0 card-body">
+              <h4 class="card-title">coming up</h4>
+              <p class="card-text" style="padding-bottom: 5px;">i am always looking for new opportunities. </p>
+              <p> currently i am working with a team on our final class project.</p>
+              <small class="text-muted" style="font-weight: bold;">last updated feb 2021.</small>
+            </blockquote>
+          </div>
+        </div>
+            -->
+
+  </div>
+
+  <!--   </section> -->
+  </div>
+
+</body>
+
+</html>
