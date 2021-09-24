@@ -73,23 +73,7 @@ h1 {
 }
 
 // Bourbon mixins
-@include keyframes(spin) {
-  0% { 
-    @include transform(rotate(0deg));
-  }
-  100% {
-    @include transform(rotate(360deg));
-  }
-}
 
-@include keyframes(spin-reverse) {
-  0% { 
-    @include transform(rotate(0deg));
-  }
-  100% {
-    @include transform(rotate(-360deg));
-  }
-}
 
 #loader-wrapper .loader-section {
   position: fixed;
